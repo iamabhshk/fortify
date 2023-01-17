@@ -1,0 +1,22 @@
+.homepage {
+  width: 50%;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 1200px) {
+  .homepage {
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .homepage {
+    height: 50vh;
+  }
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
