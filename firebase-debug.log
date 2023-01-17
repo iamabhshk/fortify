@@ -1,0 +1,30 @@
+[debug] [2023-01-17T19:52:56.881Z] ----------------------------------------------------------------------
+[debug] [2023-01-17T19:52:56.888Z] Command:       /home/abhshk/.nvm/versions/node/v17.3.0/bin/node /usr/local/bin/firebase init
+[debug] [2023-01-17T19:52:56.890Z] CLI Version:   11.8.0
+[debug] [2023-01-17T19:52:56.891Z] Platform:      linux
+[debug] [2023-01-17T19:52:56.891Z] Node Version:  v17.3.0
+[debug] [2023-01-17T19:52:56.893Z] Time:          Wed Jan 18 2023 01:22:56 GMT+0530 (India Standard Time)
+[debug] [2023-01-17T19:52:56.894Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-17T19:52:56.904Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-01-17T19:52:57.211Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-17T19:52:57.213Z] > authorizing via signed-in user (abhisheksrinivasan5@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/abhshk/Desktop/ReactJS/fortify
+
+[debug] [2023-01-17T19:52:58.113Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-01-17T19:52:58.114Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-01-17T19:54:13.515Z] Error: Timed out.
+    at Timeout._onTimeout (/usr/local/lib/node_modules/firebase-tools/lib/utils.js:253:49)
+    at listOnTimeout (node:internal/timers:568:17)
+    at processTimers (node:internal/timers:510:7)
+[error] 
+[error] Error: An unexpected error has occurred.
